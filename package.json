@@ -1,0 +1,31 @@
+{
+  "name": "@wolfiezero/prettier-config",
+  "version": "0.0.0",
+  "description": "Sharable config for Prettier",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npmpub"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WolfieZero/prettier-config.git"
+  },
+  "author": {
+    "name": "Neil Sweeney",
+    "email": "neil@wolfiezero.com",
+    "url": "https://wolfiezero.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WolfieZero/prettier-config/issues"
+  },
+  "homepage": "https://github.com/WolfieZero/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "npmpub": "^5.0.0",
+    "prettier": "^2.2.1"
+  }
+}
