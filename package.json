@@ -1,6 +1,6 @@
 {
   "name": "@wolfiezero/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sharable config for Prettier",
   "main": ".prettierrc.js",
   "scripts": {
