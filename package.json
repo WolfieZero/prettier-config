@@ -17,6 +17,10 @@
     "url": "https://wolfiezero.com"
   },
   "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "bugs": {
     "url": "https://github.com/WolfieZero/prettier-config/issues"
   },
