@@ -15,14 +15,14 @@ npx install-peerdeps @wolfiezero/prettier-config --dev
 Then add the following line to your package.json file.
 
 ```
-"prettier": "@wolfiezero/prettier-config",
+"prettier": "@wolfiezero/prettier-config"
 ```
 
 ## Extending
 
 If you wish to customise [options][prettieroptions] further, remove the `pettier`
-config from package.json and create a prettier file (`.prettierrc.js`) at the
-project root with the following.
+config from package.json and create a prettier file (`/.prettierrc.js`) with the
+following.
 
 ```
 module.exports = {
