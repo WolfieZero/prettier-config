@@ -8,8 +8,8 @@ Install this config then run [install-peerdeps][ipeerdeps] to get dependencies
 as development dependencies.
 
 ```
-npm install @wolfiezero/prettier-config
-npx install-peerdeps @wolfiezero/prettier-config --dev
+npm install @wolfiezero/prettier-config -D
+npx install-peerdeps @wolfiezero/prettier-config --D
 ```
 
 Then add the following line to your package.json file.
