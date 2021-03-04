@@ -14,8 +14,10 @@ npx install-peerdeps @wolfiezero/prettier-config --dev
 
 Then add the following line to your package.json file.
 
-```
-"prettier": "@wolfiezero/prettier-config"
+```json
+{
+  "prettier": "@wolfiezero/prettier-config"
+}
 ```
 
 ## Extending
@@ -24,7 +26,7 @@ If you wish to customise [options][prettieroptions] further, remove the `pettier
 config from package.json and create a prettier file (`/.prettierrc.js`) with the
 following.
 
-```
+```js
 module.exports = {
   ...require('@wolfiezero/prettier-config'),
   tabs: true,
@@ -35,10 +37,26 @@ module.exports = {
 ## VSCode User?
 
 Make sure you have [Prettier extention][prettiervscode] installed and add the
-following into the project's settings file (`/.vscode/settings.json`)
+following into the project's settings file (`/.vscode/settings.json`) (deleting
+as appropriate).
 
-```
-"editor.formatOnSave": true
+```json
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.format.enable": false,
+  "editor.formatOnSave": true
+}
 ```
 
 [projectnpm]: https://www.npmjs.com/package/@wolfiezero/prettier-config
