@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint '.prettierrc.js' --ignore-pattern '!.prettierrc.js'",
-    "release": "np"
+    "release": "np",
+    "update": "npm-check -u"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,7 @@
   },
   "homepage": "https://github.com/WolfieZero/prettier-config#readme",
   "peerDependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^2.5.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.0",
@@ -41,6 +42,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-unicorn": "^27.0.0",
     "np": "^7.3.0",
-    "prettier": "^2.2.1"
+    "npm-check": "^5.9.2",
+    "prettier": "^2.5.1"
   }
 }
